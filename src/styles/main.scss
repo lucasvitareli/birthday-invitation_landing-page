@@ -1,12 +1,13 @@
 @use 'variables';
 @use 'hero';
+@use 'event';
 @use 'components/info-list';
 @use 'components/button';
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto, sans-serif;
+    font-family: variables.$fontLora;
     color: variables.$txtColor;
     list-style: none;
 }

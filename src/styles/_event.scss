@@ -1,0 +1,68 @@
+@use 'variables';
+
+.event {
+    padding: 60px 0;
+
+    &--birthday {
+        background-image: linear-gradient(variables.$one, variables.$two);
+    }
+
+    &--buffet {
+        background-image: linear-gradient(variables.$two, variables.$three);
+    }
+
+    &--theme {
+        background-image: linear-gradient(variables.$three, variables.$four);
+    }
+
+    &--venue {
+        background-image: linear-gradient(variables.$four, variables.$five);
+    }
+
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__content {
+        &__title {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        &__text {
+            line-height: 22px;
+        }
+    }
+    
+    img {
+        width: 360px;
+    }
+
+
+
+    @media (max-width: 640px) {
+
+        .container {
+            display: block;
+
+            &__content {
+                margin-right: 0px;
+                margin-bottom: 16px;
+                margin-top: 22px;
+            }
+
+        }
+
+    }
+    &__image {
+        width: 100%;
+    }
+}
