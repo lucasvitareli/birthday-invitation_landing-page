@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.scss">
     <title>Birthday invitation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
+
 <body>
-    
+    <header class="hero">
+        <div class="container">
+            <h2 class="container__title">
+                You are invited to
+            </h2>
+            <h2 class="container__title-second">
+                Olivia's Birthday Party... <span id="timer"></span>
+            </h2>
+            <img class="container__image" src="images/candles.png" alt="candles">
+            <div class="infos-bar">
+                <ul class="info-list">
+                    <li class="info-list__item">
+                        18th May 2025
+                    </li>
+                    <li class="info-list__item">
+                        123, Anywhere st.
+                    </li>
+                    <li class="info-list__item">
+                        Anytown
+                    </li>
+                </ul>
+                <a class="button button--primary" href="#">Yes, I’m Coming!</a>
+                <p class="countdown">
+                    30d 17h 20min 56s</p>
+            </div>
+        </div>
+    </header>
 </body>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="scripts/main.js"></script>
+
 </html>

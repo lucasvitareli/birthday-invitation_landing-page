@@ -1,0 +1,15 @@
+@use '../variables';
+
+.button {
+    background-color: variables.$btnBgColor;
+    color: variables.$txtSecColor;
+    font-family: variables.$fontLora;
+    padding: 12px;
+    border-radius: 18px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: variables.$btnDarkerColor;
+    }
+
+}
