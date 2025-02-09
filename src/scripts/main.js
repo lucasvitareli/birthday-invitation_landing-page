@@ -1,3 +1,4 @@
+AOS.init();
 
 const eventDate = new Date('May 18, 2025, 19:00:00');
 const timeStampEvent = eventDate.getTime();
