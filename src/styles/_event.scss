@@ -57,9 +57,11 @@
         }
 
         &__content {
+            padding: 16px;
+            
             &__title {
                 font-size: 28px; 
-                margin-bottom: 0;
+                margin-bottom: 12px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -67,8 +69,7 @@
 
             &__text {
                 font-size: 14px; 
-                line-height: 20px;
-                padding: 16px;
+                line-height: 16px;
             }
         }
 
